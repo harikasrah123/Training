@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Health_Indication__c</fullName>
+    <externalId>false</externalId>
+    <formula>IMAGE( CASE( Rating , &quot;Hot&quot;, &quot;/resource/Accountrating/accrating/Green.PNG&quot; , &quot;Warm&quot;, &quot;/resource/Accountrating/accrating/Yellow.PNG&quot; ,&quot;Cold&quot;, &quot;/resource/Accountrating/accrating/Red.PNG&quot;,&quot;&quot;),&quot;Account Health Indication&quot; )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Account Health Indication</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>
